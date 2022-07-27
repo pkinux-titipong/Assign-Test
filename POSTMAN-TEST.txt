@@ -1,0 +1,14 @@
+//ADD PRODUCT
+localhost:3000/api/product
+
+//GET ALL PRODUCT
+localhost:3000/api/find
+
+//GET PRODUCT BY GENDER
+localhost:3000/api/find/spec/gender/
+
+//GET PRODUCT BY STYLE
+localhost:3000/api/find/spec/style/
+
+//GET PRODUCT BY SIZE
+localhost:3000/api/find/spec/size/

@@ -1,0 +1,72 @@
+[
+    {
+        "Gender": "Men",
+        "Style": "Iron man",
+        "Size": "L",
+        "Price": 400,
+        "id": 1
+    },
+    {
+        "Gender": "Women",
+        "Style": "Polka dots",
+        "Size": "S",
+        "Price": 500,
+        "id": 2
+    },
+    {
+        "Gender": "Women",
+        "Style": "Pink",
+        "Size": "M",
+        "Price": 400,
+        "id": 3
+    },
+    {
+        "Gender": "Men",
+        "Style": "Black",
+        "Size": "M",
+        "Price": 400,
+        "id": 4
+    },
+    {
+        "Gender": "Men",
+        "Style": "Blue",
+        "Size": "L",
+        "Price": 500,
+        "id": 5
+    },
+    {
+        "Gender": "Women",
+        "Style": "Yellow",
+        "Size": "M",
+        "Price": 400,
+        "id": 6
+    },
+    {
+        "Gender": "Women",
+        "Style": "Pink",
+        "Size": "S",
+        "Price": 300,
+        "id": 7
+    },
+    {
+        "Gender": "Men",
+        "Style": "Spiderman",
+        "Size": "M",
+        "Price": 500,
+        "id": 8
+    },
+    {
+        "Gender": "Men",
+        "Style": "Spiderman",
+        "Size": "L",
+        "Price": 500,
+        "id": 9
+    },
+    {
+        "Gender": "Men",
+        "Style": "Batman",
+        "Size": "L",
+        "Price": 500,
+        "id": 10
+    }
+]

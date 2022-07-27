@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "026f7137-6c39-4811-87fd-6a7ba57a8b29",
+		"name": "Shop_Assign",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ADD PRODUCT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"gender\": \"Men\",\n\t\"style\": \"Batman\",\n\t\"size\": \"L\",\n\t\"price\": 500,\n    \"id\" : 10\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/product",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL PRODUCT",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/api/find",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"find"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET BY GENDER",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/find/spec/gender/Men",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"find",
+						"spec",
+						"gender",
+						"Men"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET BY STYLE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/find/spec/style/iron man",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"find",
+						"spec",
+						"style",
+						"iron man"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET BY SIZE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/find/spec/size/S",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"find",
+						"spec",
+						"size",
+						"S"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
